@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome | Tech Resources</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background: url('https://mydomain-data.s3.ap-south-1.amazonaws.com/bgimg.webp') center/cover no-repeat;">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="welcome.html">Tech Hub</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="welcome.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="text-center text-white d-flex flex-column justify-content-center align-items-center vh-70">
+  <h1 class="display-3 fw-bold">Welcome to My Tech Resource Hub</h1>
+  <h2 class="display-3 fw-bold"> <p class="lead mb-4" >Access my curated drives for Network, AWS, and Cybersecurity resources.</p></h2>
+  <div>
+    <a href="#resources" class="btn btn-primary btn-lg">Explore Resources</a> <!-- to navigate in same page with id (#) see below section  -->
+  </div>
+</header>
+
+<section id="resources" class="container py-5">
+  <h2 class="text-center mb-4 text-white">Resource Links</h2>
+  <div class="row">
+    <div class="col-md-4 mb-3">
+      <div class="card bg-dark text-white">
+        <img src="https://mydomain-data.s3.ap-south-1.amazonaws.com/network.jpg" class="card-img-top" alt="Network">
+        <div class="card-body">
+          <h5 class="card-title">Network Resources</h5>
+          <p class="card-text">Guides, notes, and materials for network engineering.</p>
+          <a href="https://drive.google.com/drive/folders/1oKSQ8dFM3S8juFmN2Oj2vFVbPGWj79Dl" class="btn btn-outline-light" target="_blank">Open Drive</a> <!-- Open the link in new tab target _blank -->
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card bg-dark text-white">
+        <img src="https://mydomain-data.s3.ap-south-1.amazonaws.com/aws.jpg" class="card-img-top" alt="AWS">
+        <div class="card-body">
+          <h5 class="card-title">AWS Resources</h5>
+          <p class="card-text">Everything you need for AWS certifications and cloud setup.</p>
+          <a href="https://drive.google.com/drive/folders/1UOaiLAGmJDh6gJ5AZRqEnQPFceoaMc0H" class="btn btn-outline-light" target="_blank">Open Drive</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card bg-dark text-white">
+        <img src="https://mydomain-data.s3.ap-south-1.amazonaws.com/security.webp" class="card-img-top" alt="Cybersecurity">
+        <div class="card-body">
+          <h5 class="card-title">Cybersecurity Resources</h5>
+          <p class="card-text">Security tools, learning paths, and documentation.</p>
+          <a href="https://drive.google.com/drive/folders/1LIFSysoc18G6h1-ojDE3XMRFf8BsbPR6" class="btn btn-outline-light" target="_blank">Open Drive</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-dark text-white text-center py-3">
+  <p class="mb-0">&copy; 2025 Tech Hub | All rights reserved</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
